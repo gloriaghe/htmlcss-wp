@@ -39,12 +39,30 @@ a:link {
 
 /* sezione superiore */
 
-#partesupp-main{
-    height: 250px;
-    margin: 15px 0;
-    /* debug */
-    background-color: rgb(243, 201, 94);
+#jumbotron{
+    height: 480px;
+    margin: 35px 0;
 }
+
+#jumbotron img{
+display: block;
+object-fit: cover;
+width: 100%;
+height: 100%;
+filter: brightness(90%);
+border-radius: 10px;
+}
+
+
+
+#jumbotron-text{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: white;
+}
+
+
 
 /* colonne */
 #colonne{
