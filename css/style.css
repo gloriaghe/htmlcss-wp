@@ -2,20 +2,40 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hubballi', cursive;
 }
 
 #container{
     width: 80%;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 /* header */
 
 header{
-    height: 70px;
-    /* debug */
-    background-color: violet;
+    height: 100px;
 }
+
+header img{
+    height: 60px;
+    margin-bottom: 25px;
+}
+
+/* menu */
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a{
+    color: #ccc;
+    font-size: 20px;
+}
+
+a:link {
+    text-decoration: none;
+  }
 
 /* sezione superiore */
 
