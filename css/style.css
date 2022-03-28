@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* header */
+
+header{
+    height: 70px;
+    /* debug */
+    background-color: violet;
+}
+
+/* sezione superiore */
+
+#partesupp-main{
+    height: 250px;
+    margin: 15px 0;
+    /* debug */
+    background-color: rgb(243, 201, 94);
+}
+
+/* colonne */
+#colonne{
+    background-color: rgb(19, 143, 226);
+}
+
+#colonne::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#partesopra-colonne{
+    height: 40px;
+    margin-bottom: 10px;
+        /* debug */
+    background-color: lightblue;
+}
+
+.colsx, .coldx{
+    float: left;
+    width: 20%;
+    margin-bottom: 10px;
+        /* debug */
+    background-color: lightblue;
+    height: 250px;
+}
+
+.colcentr{
+    float: left;
+    width: calc(60% - 20px);
+    margin: 0 10px 10px 10px;
+        /* debug */
+    background-color: lightblue;
+    height: 250px;
+}
+
+footer{
+    margin-top: 5px;
+    /* debug */
+    background-color: purple;
+    height: 30px;
+}
